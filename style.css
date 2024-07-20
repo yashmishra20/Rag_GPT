@@ -1,0 +1,43 @@
+.user-message {
+    background-color: #2b2d31;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    float: right;
+    clear: both;
+}
+.ai-message {
+    background-color: #444654;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    float: left;
+    clear: both;
+}
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+.message-bubble {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.message-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.user-icon {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
