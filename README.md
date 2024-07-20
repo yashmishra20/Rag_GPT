@@ -28,25 +28,25 @@ The application features a clean and intuitive user interface designed for ease 
 
 Watch a quick tour of our home page:
 
-https://github.com/user-attachments/assets/53293427-30c2-44ae-a6ea-5cebf0e6fc3c
+https://github.com/user-attachments/assets/e4cc58ce-ecdd-4831-a01b-fb2fd2db8f70
 
 ### PreProcessed Chat with RAG
 
 See how to interact with pre-processed documents:
 
-https://github.com/user-attachments/assets/d2d8ffc1-fe8e-4936-b7df-ce967081baf9
+https://github.com/user-attachments/assets/25c6074f-7fab-4ea3-b9e6-4c8fc8e67917
 
 ### Upload and Chat with RAG
 
 Learn how to upload and chat with your own PDFs:
 
-https://github.com/user-attachments/assets/3347cc35-04ed-4ee9-8c2f-f5aaa8488d10
+https://github.com/user-attachments/assets/8e06397d-e9d8-44b7-a716-39e8af3f334e
 
 ### PDF Summary
 
 Watch how to generate summaries of PDF documents:
 
-https://github.com/user-attachments/assets/74a61563-f3b2-4e1d-9398-546cb75f9af1
+https://github.com/user-attachments/assets/a6ece423-45d8-45bc-bad5-2546d2c08804
 
 ---
 
@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/74a61563-f3b2-4e1d-9398-546cb75f9af1
 
 Below is a video explaining the schema of our project, illustrating the structure and flow of the application, including the RAG components:
 
-![schema](https://github.com/user-attachments/assets/1b4dc024-0727-4150-9029-8291e6f70554)
+![Schema](https://github.com/user-attachments/assets/fcb1dfee-aee1-403e-a861-60b3ce158894)
 
 ---
 
