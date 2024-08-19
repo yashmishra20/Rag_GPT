@@ -10,6 +10,7 @@ from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.memory import ChatMessageHistory
 from langchain.chat_models import ChatOpenAI
 from dotenv import load_dotenv 
+import time
 
 # Load environment variables
 load_dotenv()
@@ -172,6 +173,7 @@ def main():
                         <div class="ai-message">{full_response}▌</div>
                     </div>
                     ''', unsafe_allow_html=True)
+                    time.sleep(0.01)
             
             # Display the final response
             response_placeholder.markdown(f'''

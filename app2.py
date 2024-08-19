@@ -6,6 +6,7 @@ import os
 from preprocessed2 import main as preprocessed_main
 from upload2 import main as upload_main
 from summary_doc import main as summary_main
+from sql_preprocessed import main as sql_main
 
 # Load environment variables
 load_dotenv()
@@ -29,7 +30,7 @@ def main():
     # Sidebar for navigation
     st.sidebar.title("Navigation")
     app_mode = st.sidebar.selectbox("Choose the app mode",
-        ["Home", "PreProcessed", "Upload", "Summary"])
+        ["Home", "PreProcessed", "Upload", "Summary", "Sql Query"])
 
     if app_mode == "Home":
         st.write("""
@@ -74,6 +75,8 @@ def main():
         upload_main()
     elif app_mode == "Summary":
         summary_main()
+    elif app_mode == "Sql Query":
+        sql_main()
 
 if __name__ == "__main__":
     main()
