@@ -140,7 +140,6 @@ def get_response(question, db_path):
     return response["output"]
 
 def main():
-    st.title("CSV/XLSX File Analyzer Chatbot")
 
     # Sidebar for file upload
     st.sidebar.title("File Upload")
