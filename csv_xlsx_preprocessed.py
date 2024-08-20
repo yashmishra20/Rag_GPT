@@ -1,20 +1,12 @@
 import streamlit as st
 import os
 from PyPDF2 import PdfReader # type: ignore
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.memory import ChatMessageHistory
 from langchain.chat_models import ChatOpenAI
 from dotenv import load_dotenv 
 from langchain_community.utilities import SQLDatabase
-from langchain.chains import create_sql_query_chain
-from langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
-from operator import itemgetter
 import time
 import pandas as pd
 from sqlalchemy import create_engine
