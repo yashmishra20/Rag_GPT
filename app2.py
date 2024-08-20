@@ -88,7 +88,7 @@ def main():
         upload_main()
     elif app_mode == "Summary":
         summary_main()
-    elif app_mode == "Sql Query":
+    elif app_mode == "SQL Query":
         sql_main()
     elif app_mode == "CSV/XLSX Query":
         csv_xlsx_main()
