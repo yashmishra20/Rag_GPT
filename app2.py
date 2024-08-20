@@ -7,6 +7,7 @@ from preprocessed2 import main as preprocessed_main
 from upload2 import main as upload_main
 from summary_doc import main as summary_main
 from sql_preprocessed import main as sql_main
+from csv_xlsx_preprocessed import main as csv_xlsx_main
 
 # Load environment variables
 load_dotenv()
@@ -30,7 +31,7 @@ def main():
     # Sidebar for navigation
     st.sidebar.title("Navigation")
     app_mode = st.sidebar.selectbox("Choose the app mode",
-        ["Home", "PreProcessed", "Upload", "Summary", "Sql Query"])
+        ["Home", "PreProcessed", "Upload", "Summary", "Sql Query","csv or xlsx Query"])
 
     if app_mode == "Home":
         st.write("""
@@ -77,6 +78,8 @@ def main():
         summary_main()
     elif app_mode == "Sql Query":
         sql_main()
+    elif app_mode == "csv or xlsx Query":
+        csv_xlsx_main()
 
 if __name__ == "__main__":
     main()

@@ -112,4 +112,4 @@ def main():
         st.session_state.chat_history.add_ai_message(full_response)
 
 # if __name__ == "__main__":
-#     sql_main()
+#     main()
