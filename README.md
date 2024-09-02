@@ -37,3 +37,9 @@ Retrieval-Augmented Generation (RAG) is a hybrid AI model that combines informat
 - SQLite
 - Pandas
 ---
+
+## Results
+- Designed a Streamlit app for interactive AI-driven chats and document processing (PDFs, CSVs, XLSXs).
+- Integrated RAG for PDF Q&A with OpenAI embedding, FAISS, and LangChain for chat history, using Langsmith.
+- Applied SQL agents and few-shot prompting for natural language queries and analysis of uploaded CSV and XLSX files.
+- Deployed a Dockerized app via CI/CD pipeline using GitHub Actions on AWS (EC2, ECR, IAM).
